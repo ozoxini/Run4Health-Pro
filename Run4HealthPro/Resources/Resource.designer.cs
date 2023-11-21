@@ -4398,7 +4398,7 @@ namespace Run4HealthPro
 			public const int support_simple_spinner_dropdown_item = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int weather_details = 2131427386;
+			public const int WeatherPage = 2131427386;
 			
 			static Layout()
 			{
