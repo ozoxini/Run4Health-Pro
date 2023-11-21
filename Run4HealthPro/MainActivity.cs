@@ -31,7 +31,7 @@ namespace Run4HealthPro
         private async Task<string> PobierzAktualnaTemperature()
         {
             string apiKey = "253b69f48d254853f3ebd6329b7f12d3";
-            string miasto = "Warszawa";
+            string miasto = "katowice";
             string apiUrl = $"https://api.openweathermap.org/data/2.5/weather?q={miasto}&appid={apiKey}&units=metric";
             string temperatura = "";
 
