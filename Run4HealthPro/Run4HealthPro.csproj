@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
     <Compile Include="Models\Weather.cs" />
+    <Compile Include="Resources\layout\GPS.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\weatherAPI.cs" />
@@ -127,6 +128,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\WeatherPage.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\GPS.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
